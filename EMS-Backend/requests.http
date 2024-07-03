@@ -1,0 +1,29 @@
+
+GET http://localhost:5170/EMS
+
+###
+GET http://localhost:5170/EMS/2
+
+###
+POST http://localhost:5170/EMS
+Content-Type: application/json
+
+{
+    "name" : "Mohammed Abrar",
+    "email" : "abrar@gmail.com",
+    "phno" : 9089890909 
+}
+
+###
+
+PUT http://localhost:5170/EMS/1
+Content-Type: application/json
+
+{
+    "name" : "M.A.Muqtadir",
+    "email" : "muzxyz@gmail.com",
+    "phno" : 7181465647 
+}
+
+###
+DELETE http://localhost:5170/EMS/5
